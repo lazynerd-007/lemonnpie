@@ -5809,7 +5809,7 @@ function PaypalSection() {
             LearnMoreLink,
             {
               className: "mt-6",
-              link: "https://support.lazynerdstudios.com/hc/articles/147/configuring-paypal"
+              link: "https://support.lazynerdstudios.com"
             }
           )
         ] }),
@@ -5873,7 +5873,7 @@ function StripeSection() {
             LearnMoreLink,
             {
               className: "mt-6",
-              link: "https://support.lazynerdstudios.com/hc/articles/148/configuring-stripe"
+              link: "https://support.lazynerdstudios.com"
             }
           )
         ] }),
@@ -7220,7 +7220,7 @@ function OutgoingMailGroup() {
                 LearnMoreLink,
                 {
                   className: "mt-8",
-                  link: "https://support.lazynerdstudios.com/hc/articles/42/44/155/incoming-emails"
+                  link: "https://support.lazynerdstudios.com"
                 }
               )
             ] }),
@@ -7491,7 +7491,7 @@ function QueueSettings() {
           LearnMoreLink,
           {
             className: "mt-6 text-sm",
-            link: "https://support.lazynerdstudios.com/hc/articles/224/queues"
+            link: "https://support.lazynerdstudios.com"
           }
         )
       ] }),

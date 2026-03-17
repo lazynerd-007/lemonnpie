@@ -777,7 +777,7 @@ return [
             ],
             'footerTitle' => 'Start Your Streaming Journey Today!',
             'footerSubtitle' =>
-                'Unlock a World of Entertainment with LemonPie Premium Streaming Service',
+                'Unlock a World of Entertainment with LemonPienPie Premium Streaming Service',
             'footerImage' => 'images/landing/landing.jpg',
         ]),
     ],

@@ -20634,7 +20634,7 @@ function fetchAnalyticsReport({
   }
   return apiClient.get(Endpoint, { params }).then((response) => response.data);
 }
-function MtdbAdminReportPage() {
+function LemonPieAdminReportPage() {
   const [dateRange, setDateRange] = useState(() => {
     return DateRangePresets[2].getRangeValue();
   });
@@ -21200,7 +21200,7 @@ const AppAdminRoutes = [
   // Reports
   {
     path: "/",
-    element: /* @__PURE__ */ jsx(MtdbAdminReportPage, {}),
+    element: /* @__PURE__ */ jsx(LemonPieAdminReportPage, {}),
     children: [
       { index: true, element: /* @__PURE__ */ jsx(AdminInsightsReport, {}) },
       { path: "plays", element: /* @__PURE__ */ jsx(AdminInsightsReport, {}) },

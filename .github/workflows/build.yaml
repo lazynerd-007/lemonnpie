@@ -26,8 +26,8 @@ jobs:
           aws-region: us-west-1
 
       - name: Deploy build assets to S3 bucket
-        run: aws s3 sync ./public/build/ s3://vebto-assets/mtdb/build --delete
+        run: aws s3 sync ./public/build/ s3://vebto-assets/LemonPie/build --delete
 
       #- name: Deploy vendor assets to S3 bucket
-        #run: aws s3 sync ./public/vendor/ s3://vebto-assets/mtdb/vendor --delete
+        #run: aws s3 sync ./public/vendor/ s3://vebto-assets/LemonPie/vendor --delete
 

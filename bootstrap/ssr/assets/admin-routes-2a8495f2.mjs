@@ -4440,7 +4440,7 @@ function SiteUrlSection() {
         invalid: !!isInvalid,
         name: "server.app_url",
         label: /* @__PURE__ */ jsx(Trans, { message: "Primary site url" }),
-        description: /* @__PURE__ */ jsx(LearnMoreLink, { link: "https://support.vebto.com/hc/articles/35/primary-site-url" })
+        description: /* @__PURE__ */ jsx(LearnMoreLink, { link: "https://support.lazynerdstudios.com" })
       }
     ),
     append
@@ -5373,7 +5373,7 @@ function TmdbFields() {
         label: /* @__PURE__ */ jsx(Trans, { message: "TheMovieDB API Key" }),
         className: "mb-24",
         required: true,
-        description: /* @__PURE__ */ jsx(LearnMoreLink, { link: "https://support.vebto.com/hc/articles/35/65/221/creating-themoviedb-api-key" })
+        description: /* @__PURE__ */ jsx(LearnMoreLink, { link: "https://support.lazynerdstudios.com" })
       }
     ),
     /* @__PURE__ */ jsx(
@@ -5809,7 +5809,7 @@ function PaypalSection() {
             LearnMoreLink,
             {
               className: "mt-6",
-              link: "https://support.vebto.com/hc/articles/147/configuring-paypal"
+              link: "https://support.lazynerdstudios.com/hc/articles/147/configuring-paypal"
             }
           )
         ] }),
@@ -5873,7 +5873,7 @@ function StripeSection() {
             LearnMoreLink,
             {
               className: "mt-6",
-              link: "https://support.vebto.com/hc/articles/148/configuring-stripe"
+              link: "https://support.lazynerdstudios.com/hc/articles/148/configuring-stripe"
             }
           )
         ] }),
@@ -7220,7 +7220,7 @@ function OutgoingMailGroup() {
                 LearnMoreLink,
                 {
                   className: "mt-8",
-                  link: "https://support.vebto.com/hc/articles/42/44/155/incoming-emails"
+                  link: "https://support.lazynerdstudios.com/hc/articles/42/44/155/incoming-emails"
                 }
               )
             ] }),
@@ -7491,7 +7491,7 @@ function QueueSettings() {
           LearnMoreLink,
           {
             className: "mt-6 text-sm",
-            link: "https://support.vebto.com/hc/articles/224/queues"
+            link: "https://support.lazynerdstudios.com/hc/articles/224/queues"
           }
         )
       ] }),

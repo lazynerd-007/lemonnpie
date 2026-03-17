@@ -173,7 +173,7 @@ const SiteConfig = {
     getUserProfileLink
   },
   admin: {
-    channelsDocsLink: "https://support.vebto.com/hc/articles/35/38/220/channels",
+    channelsDocsLink: "https://support.lazynerdstudios.com/hc/articles/35/38/220/channels",
     ads: [
       {
         image: generalTopImage,

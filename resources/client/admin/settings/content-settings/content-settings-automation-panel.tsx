@@ -125,7 +125,7 @@ function TmdbFields() {
             className="mb-24"
             required
             description={
-              <LearnMoreLink link="https://support.vebto.com/hc/articles/35/65/221/creating-themoviedb-api-key" />
+              <LearnMoreLink link="https://support.lazynerdstudios.com" />
             }
           />
           <FormSelect

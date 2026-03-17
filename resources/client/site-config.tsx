@@ -22,7 +22,7 @@ export const SiteConfig: Partial<SiteConfigContextValue> = {
   },
   admin: {
     channelsDocsLink:
-      'https://support.vebto.com/hc/articles/35/38/220/channels',
+      'https://support.lazynerdstudios.com',
     ads: [
       {
         image: generalTopImage,

@@ -20,7 +20,7 @@ export function WebsocketSettings() {
           <Trans message="Configure websockets provider responsible for all realtime functionality on the site." />
           <LearnMoreLink
             className="mt-6 text-sm"
-            link="https://support.vebto.com/hc/articles/224/queues"
+            link="https://support.lazynerdstudios.com"
           />
         </Fragment>
       }

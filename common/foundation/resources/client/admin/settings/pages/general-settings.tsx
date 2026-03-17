@@ -85,7 +85,7 @@ function SiteUrlSection() {
             currentUrl: server.newAppUrl,
             b: chunks => <b>{chunks}</b>,
           }}
-          message="Base site url is set as <b>:baseUrl</b> in configuration, but current url is <b>:currentUrl</b>. It is recommended to set the primary url you want to use in configuration file and then redirect all other url versions to this primary version via cpanel or .htaccess file."
+          message=""
         />
       </div>
     );
@@ -99,7 +99,7 @@ function SiteUrlSection() {
         value={server.app_url}
         label={<Trans message="Primary site url" />}
         description={
-          <LearnMoreLink link="https://support.vebto.com/hc/articles/35/primary-site-url" />
+          <LearnMoreLink link="https://support.lazynerdstudios.com" />
         }
       />
       {append}

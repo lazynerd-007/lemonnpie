@@ -133,7 +133,7 @@ function PaypalSection() {
             <Trans message="Enable PayPal payment gateway integration." />
             <LearnMoreLink
               className="mt-6"
-              link="https://support.vebto.com/hc/articles/147/configuring-paypal"
+              link="https://support.lazynerdstudios.com"
             />
           </div>
         }
@@ -196,7 +196,7 @@ function StripeSection() {
             <Trans message="Enable Stripe payment gateway integration." />
             <LearnMoreLink
               className="mt-6"
-              link="https://support.vebto.com/hc/articles/148/configuring-stripe"
+              link="https://support.lazynerdstudios.com"
             />
           </div>
         }
